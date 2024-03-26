@@ -1,0 +1,161 @@
+@charset "UTF-8";
+
+.begin-wrap.__bg {
+  background-image: url(../img/area_bg.png);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: 0;
+}
+
+.com-wrap__top__head .c-ttl {
+  margin-top: 4%;
+}
+
+.com-wrap__top__head .c-txt {
+  margin-top: 4%;
+}
+
+.com-wrap__bottom {
+  margin-top: 7.5%;
+}
+
+.com-wrap__bottom img {
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  width: 100vw;
+}
+
+.online-wrap__middle {
+  display: flex;
+  justify-content: space-between;
+}
+
+.online-wrap__middle__box {
+  width: 30%;
+}
+
+.online-wrap__middle__box__top {
+  display: flex;
+  align-items: center;
+}
+
+.online-wrap__middle__box__top__img {
+  width: 15%;
+}
+
+.online-wrap__middle__box__top__img img {
+  width: 100%;
+  display: block;
+}
+
+.online-wrap__middle__box__top__ttl {
+  width: 70%;
+  margin-left: 5%;
+}
+
+.o-ttl {
+  font-size: clamp(1rem, 0.818rem + 0.91vw, 1.5rem);
+  font-weight: 500;
+}
+
+.online-wrap__middle__box__bottom {
+  margin-top: 5%;
+}
+
+.online-wrap__middle__box__bottom p {
+  font-size: clamp(0.5rem, 0.318rem + 0.91vw, 1rem);
+  font-weight: 400;
+}
+
+.online-wrap__bottom__wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.online-wrap__bottom__wrap__box {
+  width: 45%;
+}
+
+.online-wrap__bottom__wrap__box__img {
+  width: 100%;
+}
+
+.online-wrap__bottom__wrap__box__img img {
+  width: 100%;
+  display: block;
+}
+
+.online-wrap__bottom__wrap__box__txt {
+  margin-top: 4%;
+}
+
+.online-wrap__bottom__wrap__box__txt p {
+  margin-top: 4%;
+  font-size: clamp(0.5rem, 0.318rem + 0.91vw, 1rem);
+}
+
+@media screen and (max-width: 1200px) {
+  .online-wrap__middle {
+    display: block;
+    margin-top: 4%;
+  }
+
+  .online-wrap__middle__box {
+    width: 100%;
+    margin-top: 4%;
+  }
+
+  .online-wrap__middle__box__top__img {
+    width: 7.5%;
+  }
+
+  .online-wrap__middle__box__bottom {
+    margin-top: 2%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .begin-wrap__con {
+    display: block;
+    position: relative;
+    top: 60px;
+  }
+
+  .begin-wrap.__bg {
+    background-size: 80%;
+    background-position: center center;
+  }
+
+  .begin-wrap__con__right {
+    width: 100%;
+    margin-top: 7.5%;
+  }
+  
+  .breadcrumb.__section {
+    padding: 2% 0 4%;
+  }
+
+.online-wrap__bottom__wrap {
+  display: block;
+}
+
+.online-wrap__bottom__wrap__box {
+  width: 100%;
+  margin-top: 7.5%;
+}
+
+.online-wrap__bottom__wrap__box__txt {
+  margin-top: 2%;
+}
+
+.online-wrap__bottom__wrap__box__txt p {
+  margin-top: 2%;
+}
+
+}
+
+@media screen and (max-width: 480px) {
+  .breadcrumb.__section {
+    padding: 12% 0 8%;
+  }
+}
