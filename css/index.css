@@ -645,7 +645,7 @@
 
   .top-wrap__ttl {
     left: 2.5%;
-    bottom: 35%;
+    bottom: 30%;
     padding: 5%;
   }
 
@@ -654,8 +654,8 @@
   }
 
   .top-wrap__img {
-    width: 40%;
-    left: 28%;
+    width: 35%;
+    left: 31%;
     transform: translateX(-50%);
   }
 
