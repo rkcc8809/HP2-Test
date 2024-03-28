@@ -541,7 +541,7 @@ li {
 }
 
 .cont-wrap__con__block__img {
-  margin: 12px auto 0;
+  margin: 4% auto 0;
 }
 
 .cont-wrap__con__block__img img {
@@ -555,7 +555,7 @@ li {
   font-size: clamp(0.625rem, 0.534rem + 0.45vw, 0.875rem);
   text-align: left;
   font-weight: 400;
-  margin: 13px auto 0;
+  margin: 4% auto 0;
   color: #fff;
   line-height: 2;
   display: inline-block;
